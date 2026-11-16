@@ -1,0 +1,17 @@
+{
+  "name": "netsum",
+  "displayName": "Netsum",
+  "version": "0.1.0",
+  "description": "Netsum: a business's books with its accounting firm. Read the money view, deadlines, invoices, bills, documents and questions; never approve, file or pay.",
+  "author": {
+    "name": "Netsum"
+  },
+  "repository": "https://github.com/netsum-ai/netsum-agent-kit",
+  "keywords": [
+    "accounting",
+    "bookkeeping",
+    "invoices",
+    "vat",
+    "mcp"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.netsum-ai/netsum",
+  "title": "Netsum",
+  "description": "A business's books with its accounting firm: money, invoices, deadlines. Never files or pays.",
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://{host}/mcp",
+      "variables": {
+        "host": {
+          "description": "Netsum's address, or your firm's own domain",
+          "isRequired": true,
+          "default": "mcp.netsum.ai"
+        }
+      },
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Leave empty: the agent signs you in. Only for a script that runs alone: Bearer and your personal agent key (Profile, AI agents)",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/netsum-ai/netsum-agent-kit",
+    "source": "github"
+  }
+}

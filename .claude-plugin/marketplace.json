@@ -1,0 +1,14 @@
+{
+  "name": "netsum-agent-kit",
+  "description": "Netsum for AI agents: the connector and its templates",
+  "owner": {
+    "name": "Netsum"
+  },
+  "plugins": [
+    {
+      "name": "netsum",
+      "source": "./",
+      "description": "Netsum: a business's books with its accounting firm. Read the money view, deadlines, invoices, bills, documents and questions; never approve, file or pay."
+    }
+  ]
+}
